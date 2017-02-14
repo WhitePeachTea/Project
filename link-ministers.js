@@ -3,7 +3,6 @@ function addLink(node, text, url) {
     // clear the node of text; create a new "a" node; add the appropriate attributes;
     // append the new node as a child; return the original node.
 var url = "https://en.Wikipedia.org/wiki//" + text;{
-var node = document.getElementsByClassName(node);
 var text = node.textContent;
 node.textContent = "";
 }
