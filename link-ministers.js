@@ -14,10 +14,11 @@ element.appendChild(link);
 return node;
 }
 // another helper function, if you want to replace spaces w/ "_"
-//function wikify(text) {
-
-    // replace spaces w/ "_"; concatenate w/ Wikipedia prefix; return concatenated string
-    //return;}
+function wikify(text) { 
+var str = 'text';
+var replaced = str.split(' ').join('_');
+// replace spaces w/ "_"; concatenate w/ Wikipedia prefix; return concatenated string
+return text;}
 // take a class name as parameter, and linkify all such classes.
 function linkifyClass (c) {
 var c1 = document.getElementsByClassName(c);
